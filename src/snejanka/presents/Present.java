@@ -35,4 +35,16 @@ public abstract class Present {
     protected abstract double getMinPrice();
 
     protected abstract double getMaxPrice();
+
+    public Child getChild(){
+        return child;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public double getPrice() {
+        return price;
+    }
 }

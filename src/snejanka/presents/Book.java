@@ -5,10 +5,10 @@ import snejanka.Child;
 public class Book extends Present {
 
     private String name;
-    private byte stories;
+    private int stories;
 
 
-    public Book(Child child, String name, byte stories) {
+    public Book(Child child, String name, int stories) {
         super(child);
         //TODO validation of name and number of stories (from 1 to 5, included)
         this.name = name;

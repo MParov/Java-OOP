@@ -4,9 +4,9 @@ import snejanka.Child;
 
 public class Car extends Present {
 
-    private byte batteries;
+    private int batteries;
 
-    public Car(Child child, byte batteries) {
+    public Car(Child child, int batteries) {
         super(child);
         //TODO validation of batteries (from 2 to 6 included).
         this.batteries = batteries;

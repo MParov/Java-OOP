@@ -2,11 +2,11 @@ package snejanka.presents;
 
 import snejanka.Child;
 
-public class Clothe extends Present {
+public class Cloth extends Present {
     private String size;
     private String material;
 
-    public Clothe(Child child, String size, String material) {
+    public Cloth(Child child, String size, String material) {
         super(child);
         //ToDo validation of size and material;
         this.size = size;
